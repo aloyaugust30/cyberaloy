@@ -1,3 +1,5 @@
+# Python script to bruteforce the decryption key of an encrypted file after a ransomware attack
+
 from zipfile import ZipFile
 
 def attempt_extract(zf_handle, password):
